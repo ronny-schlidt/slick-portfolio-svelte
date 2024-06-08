@@ -4,49 +4,51 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
+		slug: 'proc-digitalization',
+		company: 'Weidmüller',
+		description:
+			'Digitalize procurement processes. Create Power-Apps for internal use. VBA scripts -> use Excel Data to generate PDF files.',
+		contract: ContractType.PartTime,
+		type: 'proc-digi',
+		location: 'Detmold',
+		period: 'August 2022 - February 2024',
+		skills: getSkills('powerapps', 'vba', 'office365', 'sharepoint'),
+		name: 'Procurement Excellence Digitalization',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		logo: Assets.Weidmueller,
+		shortDescription: 'Digitalize procurement processes. Create Power-Apps for internal use.'
 	},
 	{
-		slug: 'software-freelance',
+		slug: 'mixing-freelance',
 		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
+		description: 'Mixing and mastering music for customers. Improving, fixing and repairing audio.',
 		contract: ContractType.Freelance,
-		type: 'Software Development',
+		type: '',
 		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: 'blue',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
+		period: 'Juli 2019 - Mai 2021',
+		skills: getSkills('mixing', 'producing'),
 		name: 'Junior Freelancer',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		logo: Assets.Fiver,
+		shortDescription:
+			'Mixing and mastering music for customers. Improving, fixing and repairing audio.'
+	},
+	{
+		slug: 'package-delivery',
+		company: 'DHL',
+		description: '',
+		contract: ContractType.PartTime,
+		type: 'Package',
+		location: 'Horn-Bad Meinberg',
+		period: '2017 - 2021',
+		skills: [],
+		name: 'Package Delivery',
+		color: 'blue',
+		links: [],
+		logo: Assets.DHL,
+		shortDescription: ''
 	}
 ];
 

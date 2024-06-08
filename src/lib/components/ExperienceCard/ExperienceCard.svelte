@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Experience } from '$lib/types';
-	import { getMonthName, getTimeDiff } from '$lib/utils/helpers';
+	// import { getMonthName, getTimeDiff } from '$lib/utils/helpers';
 	import Card from '../Card/Card.svelte';
 	import CardLogo from '../Card/CardLogo.svelte';
 	import CardTitle from '../Card/CardTitle.svelte';
@@ -12,16 +12,16 @@
 
 	export let experience: Experience;
 
-	const months = getTimeDiff(experience.period.from, experience.period.to);
+	// const months = getTimeDiff(experience.period.from, experience.period.to);
 
-	const from = `${getMonthName(
-		experience.period.from.getMonth()
-	)} ${experience.period.from.getFullYear()}`;
-	const to = experience.period.to
-		? `${getMonthName(experience.period.to.getMonth())} ${experience.period.to.getFullYear()}`
-		: 'Present';
+	// const from = `${getMonthName(
+	// 	experience.period.from.getMonth()
+	// )} ${experience.period.from.getFullYear()}`;
+	// const to = experience.period.to
+	// 	? `${getMonthName(experience.period.to.getMonth())} ${experience.period.to.getFullYear()}`
+	// 	: 'Present';
 
-	const period = `${from} - ${to} · ${months}`;
+	// const period = `${from} - ${to} · ${months}`;
 
 	$: info = [
 		{ label: experience.company, icon: 'i-carbon-building' },
@@ -54,7 +54,7 @@
 					{/each}
 				</div>
 			</div>
-			<div class="text-[var(--text)] text-[0.9em] font-200">{period}</div>
+			<div class="text-[var(--text)] text-[0.9em] font-200">{experience.period}</div>
 			<div class="experience-description">{experience.shortDescription}</div>
 			<div class="flex flex-row flex-wrap mt-5">
 				{#each experience.skills as skill}

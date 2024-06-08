@@ -91,8 +91,9 @@
 		--rot-x: 0;
 		--rot-y: 0;
 
-		background: linear-gradient(90deg, var(--main) 0%, var(--main) 60%, var(--main-60) 100%),
-			no-repeat right 40% / 40% var(--bg-img);
+		// background: linear-gradient(90deg, var(--main) 0%, var(--main) 60%, var(--main-60) 100%),
+		// 	no-repeat right 40% / 40% var(--bg-img);
+		background:  no-repeat right 40% / 40% var(--bg-img);
 
 		&-bg-img {
 			&:hover {

@@ -36,10 +36,10 @@
 						<MainTitle>{data.experience.name}</MainTitle>
 					</div>
 					<p class="font-300 text-[var(--tertiary-text)] m-y-2 text-center">
-						{data.experience.company} · {data.experience.location} · {data.experience.type}
+						{data.experience.company} · {data.experience.location}
 					</p>
 					<p class="font-300 text-0.9em text-[var(--tertiary-text)] m-y-2 text-center">
-						{getTimeDiff(data.experience.period.from, data.experience.period.to)}
+						{data.experience.period}
 					</p>
 					<div class="w-75%">
 						<CardDivider />

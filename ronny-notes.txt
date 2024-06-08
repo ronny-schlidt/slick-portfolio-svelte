@@ -1,0 +1,23 @@
+Projects:
+
+Bot:
+  The Telegram bot is my volunteer project designed to help musicians organize and create song sets automatically, and manage keys for musicians and singers.
+
+  Each Sunday (or other designated days), we assigns specific songs and lead singers. The bot, usess an API to fetch the songs for each day. When creating a set, it retrieves all the song keys from the past and transposes the songs into these keys. A set within a song app is created for every musician, eliminating the need to send songs to each person individually.
+
+  The bot also generates PDF files for singers/musicians and files for the media team to display the lyrics. Additionally, it creates folders for each song, downloads the song audio from YouTube, and transposes the audio into the key needed for the next event. The singers or instrumentalists can use these files to prepare for the upcoming event without needing to search for the material themselves (chords and correct audio).
+
+  Furthermore, the bot allows different keys to be saved and shows statistics, such as how often each singer performs and which songs we have sung frequently throughout the year.
+
+  I have set up a Linux server that continuously monitors changes in our church organization software and waits for requests in Telegram.
+
+Cafe App:
+  The Restaurant App is a volunteer project designed to efficiently manage and operate the cafe at my hometown church. It offers functionalities to manage products, take orders, and oversee open orders. Orders can be updated to various statuses, and those ready for pickup are displayed on a separate screen, similar to the system used by popular fast food restaurants. Additionally, the app provides statistical insights and user management capabilities for your team.
+
+VBA Automation:
+
+  Excel & Word:
+The VBA script, triggered by a button in a Word file, read data from an Excel file, transformed it, and wrote the data into the Word template. Additionally, it created bar charts and inserted them into the Word file. This script was used for quality checks for customers.
+
+  Visio & Excel:
+The script read data from an Excel file and placed multiple shapes with data and connections to other shapes. This data landscape illustrated the interactions between different software systems and the data flow between them. It also identified the responsible persons or groups for maintaining specific data. Due to the large number of data fields, I used this script to eliminate repetitive work.

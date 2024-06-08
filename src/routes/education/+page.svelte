@@ -58,12 +58,12 @@
 									alt={education.organization}
 									height="50"
 									width="50"
-									class="mb-5"
+									class="mb-5 rounded-lg"
 								/>
 								<div class="text-[1.3em]">{education.degree}</div>
 								<div>{education.organization}</div>
 								<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
-									{education.location} · {getTimeDiff(education.period.from, education.period.to)}
+									{education.location} · {education.period}
 								</div>
 								<div class="row flex-wrap gap-1">
 									{#each education.subjects as subject}

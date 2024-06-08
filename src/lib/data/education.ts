@@ -3,28 +3,68 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Foreign Semester - School of Economics and Management',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'China, Shanghai',
+		logo: Assets.Learn,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Tongji University',
+		period: 'Since 2022',
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'foreign-semester',
+		subjects: ['Economics', 'Management', 'Leadership', 'Chinese']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Master degree of Business Informatics',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Germany',
+		logo: Assets.Learn,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'University of Paderborn',
+		period: 'Since 2022',
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'master',
+		subjects: [
+			'Data-Driven Engineering',
+			'Business Process Management',
+			'Project Management',
+			'Innovation Management'
+		]
+	},
+	{
+		degree: 'Bachelor degree of Business Informatics',
+		description: '',
+		location: 'Germany',
+		logo: Assets.Learn,
+		name: '',
+		organization: 'University of Paderborn',
+		period: '2017-2021',
+		shortDescription: '',
+		slug: 'bachelor',
+		subjects: [
+			'C',
+			'Python',
+			'C++',
+			'Java',
+			'R',
+			'Algorithms and Data structures',
+			'Databases',
+			'IT Security',
+			'Management',
+			'Economics'
+		]
+	},
+	{
+		degree: 'Highschool A-levels',
+		description: '',
+		location: 'Germany Horn-Bad Meinberg',
+		logo: Assets.Learn,
+		name: '',
+		organization: '',
+		period: '2009-2017',
+		shortDescription: '',
+		slug: 'highschool',
+		subjects: []
 	}
 ];
 
