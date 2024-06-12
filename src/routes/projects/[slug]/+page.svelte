@@ -115,8 +115,8 @@
 					</div>
 				{:else}
 					<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
-						<UIcon icon="i-carbon-image" classes="text-3.5em" />
-						<p class="font-300">No screenshots</p>
+						<!-- <UIcon icon="i-carbon-image" classes="text-3.5em" />
+						<p class="font-300">No screenshots</p> -->
 					</div>
 				{/if}
 			</div>

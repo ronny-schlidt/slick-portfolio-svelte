@@ -79,9 +79,26 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'PowerApps',
+		color: 'purple',
+		description:
+			'I developed two PowerApps to enhance workflow efficiency within the company. The first app allows employees to submit issues related to software or other concerns. The digitalization team can manage these issues, update their statuses, and respond directly to the reported problems. Additionally, the app features an analysis screen to identify the most common issues, helping prioritize what needs to be addressed first.<br><br>The second PowerApp was designed for the onboarding process of new employees. The CEO could select various topics, which would then generate a personalized onboarding plan for the new hire.',
+		shortDescription: 'Internal Apps for Streamlined Workflows.',
+		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [],
+		logo: Assets.PowerApps,
+		name: 'PowerApps',
+		period: '2023',
+		status: 'Finished',
+		skills: getSkills('powerapps', 'sharepoint', 'office365'),
+		type: 'Workflow'
+	},
+
+	{
 		slug: 'VBA-automation',
 		color: 'green',
-		description: "Excel & Word:<br>The VBA script, triggered by a button in a Word file, read data from an Excel file, transformed it, and wrote the data into the Word template. Additionally, it created bar charts and inserted them into the Word file. This script was used for quality checks for customers.<br><br>Visio & Excel:<br>The script read data from an Excel file and placed multiple shapes with data and connections to other shapes. This data landscape illustrated the interactions between different software systems and the data flow between them. It also identified the responsible persons or groups for maintaining specific data. Due to the large number of data fields, I used this script to eliminate repetitive work.",
+		description:
+			'Excel & Word:<br>The VBA script, triggered by a button in a Word file, read data from an Excel file, transformed it, and wrote the data into the Word template. Additionally, it created bar charts and inserted them into the Word file. This script was used for quality checks for customers.<br><br>Visio & Excel:<br>The script read data from an Excel file and placed multiple shapes with data and connections to other shapes. This data landscape illustrated the interactions between different software systems and the data flow between them. It also identified the responsible persons or groups for maintaining specific data. Due to the large number of data fields, I used this script to eliminate repetitive work.',
 		shortDescription: 'Automate tasks in Excel, Word and Visio with VBA.',
 		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		links: [],
@@ -90,7 +107,7 @@ export const items: Array<Project> = [
 		period: '2023',
 		status: 'Finished',
 		skills: getSkills('vba', 'visio', 'office365'),
-		type: 'Automation',
+		type: 'Automation'
 	}
 
 	// {

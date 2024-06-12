@@ -21,3 +21,11 @@ The VBA script, triggered by a button in a Word file, read data from an Excel fi
 
   Visio & Excel:
 The script read data from an Excel file and placed multiple shapes with data and connections to other shapes. This data landscape illustrated the interactions between different software systems and the data flow between them. It also identified the responsible persons or groups for maintaining specific data. Due to the large number of data fields, I used this script to eliminate repetitive work.
+
+PowerApps:
+I developed two PowerApps to enhance workflow efficiency within the company. The first app allows employees to submit issues related to software or other concerns. The digitalization team can manage these issues, update their statuses, and respond directly to the reported problems. Additionally, the app features an analysis screen to identify the most common issues, helping prioritize what needs to be addressed first.
+
+The second PowerApp was designed for the onboarding process of new employees. The CEO could select various topics, which would then generate a personalized onboarding plan for the new hire.
+
+
+

@@ -77,18 +77,18 @@ const Assets = {
 	Music: a('music.jpg'),
 	Wave: a('wave.png'),
 	PowerApps: a('PowerApps.png'),
-	VBA: a('VBA.png'),
+	VBA: a('vba.svg'),
 	Fiver: a('fiver.svg'),
 	Weidmueller: a('weidmueller.png'),
 	DHL: a('DHL.png'),
-	Office365: a('office365.png'),
+	Office365: a('office365.svg'),
 	SharePoint: a('sharepoint.png'),
 	Cafe: a('cafe.png'),
 	Bot: a('bot.jpg'),
 	Linux: a('linux.png'),
 	Git: a('git.svg'),
 	Shadcn: a('shadcn.svg'),
-	Visio: a('visio.png'),
+	Visio: a('visio.png')
 };
 
 export default Assets;

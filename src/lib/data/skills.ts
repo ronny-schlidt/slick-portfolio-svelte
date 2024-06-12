@@ -188,21 +188,20 @@ export const items = [
 		name: 'Linux',
 		category: 'software'
 	}),
-
-	defineSkill({
-		slug: 'office365',
-		color: 'orange',
-		description: '',
-		logo: Assets.Office365,
-		name: 'Office 365',
-		category: 'software'
-	}),
 	defineSkill({
 		slug: 'sharepoint',
 		color: 'green',
 		description: '',
 		logo: Assets.SharePoint,
 		name: 'SharePoint',
+		category: 'software'
+	}),
+	defineSkill({
+		slug: 'office365',
+		color: 'orange',
+		description: '',
+		logo: Assets.Office365,
+		name: 'Office 365',
 		category: 'software'
 	}),
 
