@@ -3,7 +3,7 @@ import type { Color } from './utils/colors';
 export enum Platform {
 	GitHub = 'github',
 	Linkedin = 'linkedin',
-	Email = 'email',
+	Email = 'email'
 }
 
 export type Icon = `i-${string}-${string}`;
@@ -51,7 +51,7 @@ export interface Skill<S extends string = string> extends Omit<Item<S>, 'shortDe
 export interface Project<S extends string = string> extends Item<S> {
 	links: Array<Link>;
 	color: Color;
-	period: string
+	period: string;
 	type: string;
 	skills: Array<Skill<S>>;
 	status?: string;
@@ -67,7 +67,17 @@ export interface Experience<S extends string = string> extends Project<S> {
 export interface Education<S extends string = string> extends Item<S> {
 	organization: string;
 	location: string;
-	period: string
+	period: string;
 	subjects: Array<string>;
 	degree: string;
+}
+
+export interface Music {
+	title: string;
+	artist: string;
+	year: number;
+	youtube?: string;
+	spotify?: string;
+	logo: Asset;
+	color: Color;
 }

@@ -108,6 +108,22 @@ export const items: Array<Project> = [
 		status: 'Finished',
 		skills: getSkills('vba', 'visio', 'office365'),
 		type: 'Automation'
+	},
+
+	{
+		slug: 'music',
+		color: 'purple',
+		description:
+			'',
+		shortDescription: 'Click here to see some of my music projects.',
+		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [],
+		logo: Assets.Music,
+		name: 'Music Projects',
+		period: '',
+		status: 'Finished',
+		skills: getSkills('audio', 'a-guiar', 'piano',"bass", "drums", "mixing", "producing"),
+		type: 'Automation'
 	}
 
 	// {
