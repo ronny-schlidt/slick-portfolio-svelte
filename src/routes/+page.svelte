@@ -3,7 +3,7 @@
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import { titleSuffix } from '@data/app';
-	import { links, description, lastName, name, title, skills } from '@data/home';
+	import { links, description, lastName, name, title, skills, siteExplanation } from '@data/home';
 	import { items as skillsItems } from '@data/skills';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
@@ -44,3 +44,6 @@
 	<img src="personal-photo.jpg" alt="person" class="ml-4 w-50 h-50 rounded-full shadow-lg" />
 	<!-- <Carrousel items={skills ?? skillsItems} /> -->
 </div>
+<!-- <p>
+		{@html siteExplanation}
+	</p> -->

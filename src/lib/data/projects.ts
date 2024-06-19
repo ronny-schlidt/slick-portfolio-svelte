@@ -4,19 +4,18 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'cafe-app',
+		slug: 'restaurant-app',
 		color: '#ff3e00',
 		description:
 			'The Restaurant App is a volunteer project designed to efficiently manage and operate the cafe at my hometown church. It offers functionalities to manage products, take orders, and oversee open orders. Orders can be updated to various statuses, and those ready for pickup are displayed on a separate screen, similar to the system used by popular fast food restaurants. Additionally, the app provides statistical insights and user management capabilities for your team.',
 		shortDescription:
 			'App, to take orders, manage orders, manage products, user management, etc...',
-		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		links: [],
+		links: [{ to: 'https://github.com/Immanuel-Detmold/cafe', label: 'GitHub', newTab: true }],
 		logo: Assets.Cafe,
 		name: 'Restaurant App',
 		period: 'Since 2023',
 		status: 'In Progress',
-		skills: getSkills('reactjs', 'ts', 'tailwind', 'figma'),
+		skills: getSkills('reactjs', 'ts', 'tailwind', 'figma', 'css', 'html'),
 		type: 'Web App',
 		screenshots: [
 			{
@@ -113,8 +112,7 @@ export const items: Array<Project> = [
 	{
 		slug: 'music',
 		color: 'purple',
-		description:
-			'',
+		description: '',
 		shortDescription: 'Click here to see some of my music projects.',
 		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		links: [],
@@ -122,7 +120,7 @@ export const items: Array<Project> = [
 		name: 'Music Projects',
 		period: '',
 		status: 'Finished',
-		skills: getSkills('audio', 'a-guiar', 'piano',"bass", "drums", "mixing", "producing"),
+		skills: getSkills('audio', 'a-guiar', 'piano', 'bass', 'drums', 'mixing', 'producing'),
 		type: 'Automation'
 	}
 

@@ -2,6 +2,7 @@ import Assets from './assets';
 import type { Skill, SkillCategory } from '../types';
 import svelte from '../md/svelte.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
+import { skillDescriptions } from './skilldescription';
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
@@ -41,7 +42,7 @@ export const items = [
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.typescript,
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'
@@ -49,7 +50,7 @@ export const items = [
 	defineSkill({
 		slug: 'python',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.python,
 		logo: Assets.Python,
 		name: 'Python',
 		category: 'pro-lang'
@@ -57,7 +58,7 @@ export const items = [
 	defineSkill({
 		slug: 'cpp',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.cpp,
 		logo: Assets.Cpp,
 		name: 'C++',
 		category: 'pro-lang'
@@ -65,7 +66,7 @@ export const items = [
 	defineSkill({
 		slug: 'java',
 		color: 'yellow',
-		description: '',
+		description: skillDescriptions.java,
 		logo: Assets.Java,
 		name: 'Java',
 		category: 'pro-lang'
@@ -73,7 +74,7 @@ export const items = [
 	defineSkill({
 		slug: 'vba',
 		color: 'yellow',
-		description: '',
+		description: skillDescriptions.vba,
 		logo: Assets.VBA,
 		name: 'VBA',
 		category: 'pro-lang'
@@ -82,7 +83,7 @@ export const items = [
 	defineSkill({
 		slug: 'css',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.css,
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -90,7 +91,7 @@ export const items = [
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
-		description: '',
+		description: skillDescriptions.html,
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -98,7 +99,7 @@ export const items = [
 	defineSkill({
 		slug: 'tailwind',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.tailwindcss,
 		logo: Assets.Tailwind,
 		name: 'Tailwind CSS',
 		category: 'markup-style'
@@ -115,7 +116,7 @@ export const items = [
 	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
-		description: '',
+		description: skillDescriptions.reactjs,
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
@@ -131,7 +132,7 @@ export const items = [
 	defineSkill({
 		slug: 'shadcn',
 		color: 'cyan',
-		description: '',
+		description: skillDescriptions.shadcn,
 		logo: Assets.Shadcn,
 		name: 'Shadcn',
 		category: 'library'
@@ -140,7 +141,7 @@ export const items = [
 	defineSkill({
 		slug: 'db',
 		color: 'green',
-		description: '',
+		description: skillDescriptions.supabase,
 		logo: Assets.Supabase,
 		name: 'Supabase',
 		category: 'db'
@@ -149,7 +150,7 @@ export const items = [
 	defineSkill({
 		slug: 'figma',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.figma,
 		logo: Assets.Figma,
 		name: 'Figma',
 		category: 'design'
@@ -157,7 +158,7 @@ export const items = [
 	defineSkill({
 		slug: 'photoshop',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.photoshop,
 		logo: Assets.Photoshop,
 		name: 'Photoshop',
 		category: 'design'
@@ -166,7 +167,7 @@ export const items = [
 	defineSkill({
 		slug: 'visio',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.visio,
 		logo: Assets.Visio,
 		name: 'Visio',
 		category: 'design'
@@ -175,7 +176,7 @@ export const items = [
 	defineSkill({
 		slug: 'powerapps',
 		color: 'purple',
-		description: '',
+		description: skillDescriptions.powerapps,
 		logo: Assets.PowerApps,
 		name: 'Power Apps',
 		category: 'software'
@@ -183,7 +184,7 @@ export const items = [
 	defineSkill({
 		slug: 'linux',
 		color: 'yellow',
-		description: '',
+		description: skillDescriptions.linux,
 		logo: Assets.Linux,
 		name: 'Linux',
 		category: 'software'
@@ -191,7 +192,7 @@ export const items = [
 	defineSkill({
 		slug: 'sharepoint',
 		color: 'green',
-		description: '',
+		description: skillDescriptions.sharepoint,
 		logo: Assets.SharePoint,
 		name: 'SharePoint',
 		category: 'software'
@@ -199,7 +200,7 @@ export const items = [
 	defineSkill({
 		slug: 'office365',
 		color: 'orange',
-		description: '',
+		description: skillDescriptions.office365,
 		logo: Assets.Office365,
 		name: 'Office 365',
 		category: 'software'
@@ -209,7 +210,7 @@ export const items = [
 	defineSkill({
 		slug: 'git',
 		color: 'red',
-		description: '',
+		description: skillDescriptions.git,
 		logo: Assets.Git,
 		name: 'Git',
 		category: 'devtools'
@@ -217,7 +218,7 @@ export const items = [
 	defineSkill({
 		slug: 'tools',
 		color: 'red',
-		description: '',
+		description: skillDescriptions.huskyPrettierEslint,
 		logo: Assets.Unknown,
 		name: 'Husky, Prettier, ESLint',
 		category: 'devtools'

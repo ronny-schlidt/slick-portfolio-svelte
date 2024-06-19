@@ -33,7 +33,7 @@ export const items: Music[] = [
 	},
 	{
 		title: 'Brücke des Lebens',
-		artist: 'Denny Gaar',
+		artist: 'Denny Gaar & Escabix',
 		year: 2022,
 		color: 'grey',
 		logo: Assets.Music,
@@ -75,5 +75,25 @@ export const items: Music[] = [
 		color: 'grey',
 		youtube:
 			'<iframe width="100%" height="100%" src="https://www.youtube.com/embed/rjFlbbO44eo?si=mQE-8UTQjInR3aSh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+	},
+	{
+		title:
+			'Anton Diabelli Kriegs Rondo op.150 für 4 Hände spielen Viliana(8) und Ronny(10) Schlidt',
+		artist: 'Viliana & Ronny Schlidt',
+		year: 2013,
+		logo: Assets.Music,
+		color: '#a27861',
+		youtube:
+			'<iframe width="100%" height="100%" src="https://www.youtube.com/embed/hPciDgi0q9s?si=YXgrZZDS_28k7vDF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+	},
+	{
+		title:
+			'Anton Diabelli Kriegs Rondo op.150 für 4 Hände spielen Viliana(8) und Ronny(10) Schlidt',
+		artist: 'Viliana & Ronny Schlidt',
+		year: 2013,
+		logo: Assets.Music,
+		color: '#a27861',
+		youtube:
+			'<iframe width="100%" height="100%" src="https://www.youtube.com/embed/4zPSxjFqtsk?si=d6Veg998wHDnUn7a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 	}
 ];
