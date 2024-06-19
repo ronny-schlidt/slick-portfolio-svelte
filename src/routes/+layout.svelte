@@ -4,9 +4,10 @@
 	import '$lib/index.scss';
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
-	import { inject } from '@vercel/analytics'
-
-	inject()
+	import { inject } from '@vercel/analytics';
+	import { dev } from '$app/environment';
+	// Runs the analytics function from Vercel
+	inject({ mode: dev ? 'development' : 'production' });
 
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
