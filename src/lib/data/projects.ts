@@ -118,7 +118,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/ronny-schlidt/Shiny-App-R', label: 'GitHub', newTab: true }],
 		logo: Assets.R,
 		name: 'Shiny Dashboard in R',
-		period: '2021',
+		period: '2020',
 		status: 'Finished',
 		skills: getSkills('r'),
 		type: 'Data Visualization',
