@@ -35,4 +35,5 @@ export const skillDescriptions = {
 	git: 'A distributed version control system for tracking changes in source code during software development, enabling collaboration and version management.',
 	huskyPrettierEslint:
 		'Tools for maintaining code quality and consistency: Husky manages Git hooks to automate tasks, Prettier formats code for consistent style, and ESLint identifies and reports on patterns in JavaScript to ensure code quality.',
+	r: 'A programming language and software environment used for statistical computing, data analysis, and graphical representation.'
 };

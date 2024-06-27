@@ -79,6 +79,17 @@ export const items = [
 		name: 'VBA',
 		category: 'pro-lang'
 	}),
+
+	// R
+	defineSkill({
+		slug: 'r',
+		color: 'blue',
+		description: skillDescriptions.r,
+		logo: Assets.R,
+		name: 'R',
+		category: 'pro-lang'
+	}),
+
 	// Markup & Style
 	defineSkill({
 		slug: 'css',

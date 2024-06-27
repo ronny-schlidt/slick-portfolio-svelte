@@ -88,7 +88,8 @@ const Assets = {
 	Linux: a('linux.png'),
 	Git: a('git.svg'),
 	Shadcn: a('shadcn.svg'),
-	Visio: a('visio.png')
+	Visio: a('visio.png'),
+	R: a('R.svg'),
 };
 
 export default Assets;

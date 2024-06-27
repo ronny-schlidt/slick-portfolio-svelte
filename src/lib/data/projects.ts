@@ -108,6 +108,27 @@ export const items: Array<Project> = [
 		skills: getSkills('vba', 'visio', 'office365'),
 		type: 'Automation'
 	},
+	// Project Shiny Dashboard in R -> Shows Impact of Covid-19 on the Economy
+	{
+		slug: 'R',
+		color: 'green',
+		description:
+			'The Shiny Dashboard was a university project and shows the impact of COVID-19 on the economy.<br>The dashboard retrieves data from an API and allows users to compare infections and equities/precious metals side by side within a selected date range.',
+		shortDescription: 'Visualize the impact of COVID-19 on the economy with R.',
+		links: [{ to: 'https://github.com/ronny-schlidt/Shiny-App-R', label: 'GitHub', newTab: true }],
+		logo: Assets.R,
+		name: 'Shiny Dashboard in R',
+		period: '2021',
+		status: 'Finished',
+		skills: getSkills('r'),
+		type: 'Data Visualization',
+		screenshots: [
+			{
+				src: 'https://user-images.githubusercontent.com/73183428/125286994-b5959280-e31c-11eb-9c4a-b8b93003e664.png',
+				label: 'Dashboard'
+			}
+		]
+	},
 
 	{
 		slug: 'music',
