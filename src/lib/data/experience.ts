@@ -12,7 +12,7 @@ export const items: Array<Experience> = [
 		type: 'proc-digi',
 		location: 'Detmold',
 		period: 'August 2022 - February 2024',
-		skills: getSkills('powerapps', 'vba', 'office365', 'sharepoint'),
+		skills: getSkills('powerapps', 'vba', 'office365', 'sharepoint', 'powerautomate', "virtualagents"),
 		name: 'Procurement Excellence Digitalization',
 		color: 'red',
 		links: [],

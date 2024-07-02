@@ -35,7 +35,7 @@ const Assets = {
 	ReactJs: a('react.svg'),
 	Dart: a('dart.png'),
 	Kotlin: a('kotlin.png'),
-	Python: a('python.png'),
+	Python: a('python.svg'),
 	NodeJs: a('node.png'),
 	Deno: a('deno.png', 'deno-dark.png'),
 	Svelte: a('svelte.png'),
@@ -82,7 +82,7 @@ const Assets = {
 	Weidmueller: a('weidmueller.png'),
 	DHL: a('DHL.png'),
 	Office365: a('office365.svg'),
-	SharePoint: a('sharepoint.png'),
+	SharePoint: a('sharepoint.svg'),
 	Cafe: a('cafe.png'),
 	Bot: a('bot.jpg'),
 	Linux: a('linux.png'),
@@ -90,6 +90,8 @@ const Assets = {
 	Shadcn: a('shadcn.svg'),
 	Visio: a('visio.png'),
 	R: a('R.svg'),
+	PowerAutomate: a('power-automate.svg'),
+	VirtualAgents: a('VirtualAgents.png')
 };
 
 export default Assets;

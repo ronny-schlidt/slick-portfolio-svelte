@@ -89,7 +89,7 @@ export const items: Array<Project> = [
 		name: 'PowerApps',
 		period: '2023',
 		status: 'Finished',
-		skills: getSkills('powerapps', 'sharepoint', 'office365'),
+		skills: getSkills('powerapps', 'sharepoint', 'office365', 'powerautomate', 'virtualagents'),
 		type: 'Workflow'
 	},
 

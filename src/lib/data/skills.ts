@@ -192,6 +192,17 @@ export const items = [
 		name: 'Power Apps',
 		category: 'software'
 	}),
+
+	// Power Automate
+	defineSkill({
+		slug: 'powerautomate',
+		color: 'blue',
+		description: skillDescriptions.powerautomate,
+		logo: Assets.PowerAutomate,
+		name: 'Power Automate',
+		category: 'software'
+	}),
+
 	defineSkill({
 		slug: 'linux',
 		color: 'yellow',
@@ -208,6 +219,17 @@ export const items = [
 		name: 'SharePoint',
 		category: 'software'
 	}),
+
+	// Microsoft Chatbot VirtualAgent
+	defineSkill({
+		slug: 'virtualagents',
+		color: 'blue',
+		description: skillDescriptions.virtualagents,
+		logo: Assets.VirtualAgents,
+		name: 'Microsoft Power Virtual Agents',
+		category: 'software'
+	}),
+
 	defineSkill({
 		slug: 'office365',
 		color: 'orange',
