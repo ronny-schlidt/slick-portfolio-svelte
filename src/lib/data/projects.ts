@@ -15,7 +15,7 @@ export const items: Array<Project> = [
 		name: 'Restaurant App',
 		period: 'Since 2023',
 		status: 'In Progress',
-		skills: getSkills('reactjs', 'ts', 'tailwind', 'figma', 'css', 'html'),
+		skills: getSkills('reactjs', 'ts', 'tailwind', 'figma', 'css', 'html', 'supabase'),
 		type: 'Web App',
 		screenshots: [
 			{

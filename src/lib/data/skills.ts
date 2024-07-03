@@ -150,7 +150,7 @@ export const items = [
 	}),
 	// Database
 	defineSkill({
-		slug: 'db',
+		slug: 'supabase',
 		color: 'green',
 		description: skillDescriptions.supabase,
 		logo: Assets.Supabase,
