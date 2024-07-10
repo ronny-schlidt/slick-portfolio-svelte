@@ -305,7 +305,17 @@ export const items = [
 		logo: Assets.Wave,
 		name: 'Audio Production',
 		category: 'free'
-	})
+	}),
+	// FL studio
+	defineSkill({
+		slug: 'flstudio',
+		color: 'blue',
+		description: skillDescriptions.flstudio,
+		logo: Assets.FLStudio,
+		name: 'FL Studio',
+		category: 'free'
+	}),
+
 ] as const;
 
 export const title = 'Skills';

@@ -91,7 +91,8 @@ const Assets = {
 	Visio: a('visio.png'),
 	R: a('R.svg'),
 	PowerAutomate: a('power-automate.svg'),
-	VirtualAgents: a('VirtualAgents.png')
+	VirtualAgents: a('VirtualAgents.png'),
+	FLStudio: a('flstudio.png'),
 };
 
 export default Assets;

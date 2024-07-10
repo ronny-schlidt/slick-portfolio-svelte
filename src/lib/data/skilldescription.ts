@@ -39,4 +39,5 @@ export const skillDescriptions = {
 	powerautomate:
 		'A cloud-based service that enables users to automate workflows across multiple applications and services without the need for extensive coding.',
 	virtualagents: 'A tool for creating chatbots and virtual agents to automate customer interactions and support services.',
+	flstudio: "A comprehensive digital audio workstation (DAW) used for music production, allowing users to compose, arrange, record, edit, mix, and master music tracks with a wide range of built-in tools and plugins."
 };
