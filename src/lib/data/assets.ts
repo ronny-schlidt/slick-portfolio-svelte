@@ -93,6 +93,7 @@ const Assets = {
 	PowerAutomate: a('power-automate.svg'),
 	VirtualAgents: a('VirtualAgents.png'),
 	FLStudio: a('flstudio.png'),
+	DaisyUi: a('daisyUi.png'),
 };
 
 export default Assets;

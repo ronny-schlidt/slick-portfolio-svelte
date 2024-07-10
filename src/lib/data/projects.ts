@@ -158,7 +158,7 @@ export const items: Array<Project> = [
 		name: 'Music Projects',
 		period: '',
 		status: 'Finished',
-		skills: getSkills('audio', 'a-guiar', 'piano', 'bass', 'drums', 'mixing', 'producing'),
+		skills: getSkills('audio', 'a-guiar', 'piano', 'bass', 'drums', 'mixing', 'producing', "flstudio"),
 		type: 'Automation'
 	}
 

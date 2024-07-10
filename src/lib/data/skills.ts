@@ -90,6 +90,34 @@ export const items = [
 		category: 'pro-lang'
 	}),
 
+
+	// Libaries
+	defineSkill({
+		slug: 'reactjs',
+		color: 'cyan',
+		description: skillDescriptions.reactjs,
+		logo: Assets.ReactJs,
+		name: 'React Js',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'svelte',
+		color: 'orange',
+		description: svelte,
+		logo: Assets.Svelte,
+		name: 'Svelte',
+		category: 'library'
+	}),
+	
+	// Database
+	defineSkill({
+		slug: 'supabase',
+		color: 'green',
+		description: skillDescriptions.supabase,
+		logo: Assets.Supabase,
+		name: 'Supabase',
+		category: 'db'
+	}),
 	// Markup & Style
 	defineSkill({
 		slug: 'css',
@@ -115,47 +143,22 @@ export const items = [
 		name: 'Tailwind CSS',
 		category: 'markup-style'
 	}),
-	// defineSkill({
-	// 	slug: 'sass',
-	// 	color: 'pink',
-	// 	description: '',
-	// 	logo: Assets.Sass,
-	// 	name: 'Sass',
-	// 	category: 'markup-style'
-	// }),
-	// Libaries
-	defineSkill({
-		slug: 'reactjs',
-		color: 'cyan',
-		description: skillDescriptions.reactjs,
-		logo: Assets.ReactJs,
-		name: 'React Js',
-		category: 'library'
-	}),
-	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte',
-		category: 'library'
-	}),
 	defineSkill({
 		slug: 'shadcn',
 		color: 'cyan',
 		description: skillDescriptions.shadcn,
 		logo: Assets.Shadcn,
 		name: 'Shadcn',
-		category: 'library'
+		category: 'markup-style'
 	}),
-	// Database
+	// DaisyUi
 	defineSkill({
-		slug: 'supabase',
-		color: 'green',
-		description: skillDescriptions.supabase,
-		logo: Assets.Supabase,
-		name: 'Supabase',
-		category: 'db'
+		slug: 'daisyui',
+		color: 'blue',
+		description: skillDescriptions.daisyUi,
+		logo: Assets.DaisyUi,
+		name: 'DaisyUI',
+		category: 'markup-style'
 	}),
 	// Design
 	defineSkill({
@@ -261,7 +264,7 @@ export const items = [
 	defineSkill({
 		slug: 'piano',
 		color: 'gold',
-		description: '',
+		description: skillDescriptions.piano,
 		logo: Assets.Music,
 		name: 'Piano',
 		category: 'free'
@@ -269,7 +272,7 @@ export const items = [
 	defineSkill({
 		slug: 'a-guiar',
 		color: 'gold',
-		description: '',
+		description: skillDescriptions.acousticGuitar,
 		logo: Assets.Music,
 		name: 'Acoustic Guitar',
 		category: 'free'
@@ -277,7 +280,7 @@ export const items = [
 	defineSkill({
 		slug: 'bass',
 		color: 'gold',
-		description: '',
+		description: skillDescriptions.bassGuitar,
 		logo: Assets.Music,
 		name: 'Bass Guitar',
 		category: 'free'
@@ -285,7 +288,7 @@ export const items = [
 	defineSkill({
 		slug: 'drums',
 		color: 'gold',
-		description: '',
+		description: skillDescriptions.drums,
 		logo: Assets.Music,
 		name: 'Drums',
 		category: 'free'
@@ -293,7 +296,7 @@ export const items = [
 	defineSkill({
 		slug: 'mixing',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.audioMixing,
 		logo: Assets.Wave,
 		name: 'Audio Mixing',
 		category: 'free'
@@ -301,7 +304,7 @@ export const items = [
 	defineSkill({
 		slug: 'producing',
 		color: 'blue',
-		description: '',
+		description: skillDescriptions.audioProduction,
 		logo: Assets.Wave,
 		name: 'Audio Production',
 		category: 'free'
