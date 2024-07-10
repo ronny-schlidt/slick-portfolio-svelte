@@ -42,7 +42,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.Freelance,
 		type: '',
 		location: 'Home',
-		period: 'Juli 2019 - Mai 2021',
+		period: 'Juli 2019 - Juni 2021',
 		skills: getSkills('mixing', 'producing'),
 		name: 'Junior Freelancer',
 		color: 'green',
