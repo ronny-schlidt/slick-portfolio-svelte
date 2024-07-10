@@ -1,6 +1,7 @@
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from '../types';
+import { ScreenshotsAssets } from './screenshots';
 
 export const items: Array<Project> = [
 	{
@@ -20,27 +21,31 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'New order',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihaL-rF-M4VfDe7o3X9PrYsE2gX8FCAu2rr9pmixBsCdMNoOyL2WaoAMT_OoUxO-RqnikLGJQiqeJXIuhC1uwfo7BrtQOiFKRHM=s1600-rw-v1'
+				src: ScreenshotsAssets.cafeNewOrder
 			},
 			{
 				label: 'Open orders',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihZhKKOXsvLmcObiNeyAbEqYCRNlhn3n3_QQyvxk-JQk0LGIvnj2VgkcfLsT0-zjIQzzeZVZ3CqEfKN9aBRnWdChP--Q-mzyoto=s1600-rw-v1'
+				src: ScreenshotsAssets.cafeOpen
 			},
 			{
 				label: 'Ready for pick-up',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihYyRh4NN4jC2fczsaTXgxAdGnSiCV3zCo5rx7LnTHqVOCeIoVgsEX1_kZYIbJSC4v0a78ZGXXIzH8koH89-fOS14OBn7fg24fs=s1600-rw-v1'
+				src: ScreenshotsAssets.cafeReadyToPickup
 			},
 			{
 				label: 'Statistics',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihbheIp3cJAUi9sgpTtWqAXsmr1QoV9CRaCokbPDo_HZQincoHgY5ohrXSXu964NOOTvzlqDNslK4o0pPPTEOWZPqTUNE3h8pWk=s1600-rw-v1'
+				src: ScreenshotsAssets.cafeStatistics
 			},
 			{
 				label: 'Settings & user management',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihZIUo18l8IoA9P7KUKabiqYkN5BP7adcS5olCyj2gcklBGWgTre42eu2pWKilDhEYwJJCx2xXkqx3V7NAzWZcc4sLgRXYmzrWg=s1600-rw-v1'
+				src: ScreenshotsAssets.cafeSettingsWithUserManagement
 			},
 			{
 				label: 'Dark & Light mode',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihbZ1zKvMDgMTaj3pdvBqJTyBZBohlSslgMKSRtEDjRUo807ZFsCDcLIownS1fcPPWLfP8zguGGtQ_IKDUzurckhLGqOVchBPQ=s1600-rw-v1'
+				src: ScreenshotsAssets.cafeLightAndDarkMode
+			},
+			{
+				label: 'Inventory management',
+				src: ScreenshotsAssets.cafeInventoryManagement
 			}
 		]
 	},
@@ -61,19 +66,19 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Trigger bot with commands',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihb2_sHHQSuzJTe_D1JZ5h8NyaDyb4SnPkW3Sl9wdGU1uXfX3FlHGUbobC74xS-8NuPCWNBlDAdu6Zqn8ylNTfhZfoG8PzuNCg=s1600-rw-v1'
+				src: ScreenshotsAssets.telegramBotHelp
 			},
 			{
 				label: 'Manage song keys',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihbYh6jIoo3D6YQINuq0sCLv3fywiOprg3iNyV4qbY3NPzM6dpv0rwD5op3-CZLDoy7rWUTXAkPBL1qr7HW64pE-ZFKj_R8WaKQ=s1600-rw-v1'
+				src: ScreenshotsAssets.telegramBotManageKeys
 			},
 			{
 				label: 'Exercise files',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihYV8LOoMo5ttJlNaips1nufEZLavmY1EAnozB_7_w7Xn2v6uPykHtYe0_dT2m5It-E3XWsshe6aTTttTVBj0C1H_s6PGkx1l2E=s2560'
+				src: ScreenshotsAssets.telegramBotExerciseFiles
 			},
 			{
 				label: 'PDF and audio files',
-				src: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihbDmEzQbgABBgB-qP8eVD2h3vJnlB9n0unhmweq0oBUplaDrX8nX2p3fgxhhzGRA2vpDtGy8MxAXUrOu-W4DyqGxfmXY7w-xXQ=s2560'
+				src: ScreenshotsAssets.telegramBotExerciseFilesMP3
 			}
 		]
 	},
@@ -122,7 +127,7 @@ export const items: Array<Project> = [
 		name: 'Bachelor Thesis',
 		period: '2021',
 		status: 'Finished',
-		skills: getSkills('python'),
+		skills: getSkills('python', "gurobi"),
 		type: 'Research'
 	},
 	// Project Shiny Dashboard in R -> Shows Impact of Covid-19 on the Economy
@@ -141,7 +146,7 @@ export const items: Array<Project> = [
 		type: 'Data Visualization',
 		screenshots: [
 			{
-				src: 'https://user-images.githubusercontent.com/73183428/125286994-b5959280-e31c-11eb-9c4a-b8b93003e664.png',
+				src: ScreenshotsAssets.dashboardR,
 				label: 'Dashboard'
 			}
 		]
@@ -158,7 +163,16 @@ export const items: Array<Project> = [
 		name: 'Music Projects',
 		period: '',
 		status: 'Finished',
-		skills: getSkills('audio', 'a-guiar', 'piano', 'bass', 'drums', 'mixing', 'producing', "flstudio"),
+		skills: getSkills(
+			'audio',
+			'a-guiar',
+			'piano',
+			'bass',
+			'drums',
+			'mixing',
+			'producing',
+			'flstudio'
+		),
 		type: 'Automation'
 	}
 

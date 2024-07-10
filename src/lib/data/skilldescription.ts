@@ -47,4 +47,5 @@ export const skillDescriptions = {
 	audioMixing: "I have experience in audio mixing, including balancing levels, panning, equalization, and effects processing (Production & Live).",
 	audioProduction: "I have experience in audio production, including recording, editing, and arranging audio tracks.",
 	daisyUi: "A modern, responsive, and customizable UI framework for building web applications with a focus on accessibility and user experience.",
+	gurobi: "A mathematical optimization solver used for solving linear programming, mixed-integer programming, and other optimization problems.",
 };

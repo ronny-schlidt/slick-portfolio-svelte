@@ -94,6 +94,7 @@ const Assets = {
 	VirtualAgents: a('VirtualAgents.png'),
 	FLStudio: a('flstudio.png'),
 	DaisyUi: a('daisyUi.png'),
+	Gurobi: a('gurobi.png'),
 };
 
 export default Assets;

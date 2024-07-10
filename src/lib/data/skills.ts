@@ -223,7 +223,6 @@ export const items = [
 		category: 'software'
 	}),
 
-	// Microsoft Chatbot VirtualAgent
 	defineSkill({
 		slug: 'virtualagents',
 		color: 'blue',
@@ -239,6 +238,14 @@ export const items = [
 		description: skillDescriptions.office365,
 		logo: Assets.Office365,
 		name: 'Office 365',
+		category: 'software'
+	}),
+	defineSkill({
+		slug: 'gurobi',
+		color: 'red',
+		description: skillDescriptions.gurobi,
+		logo: Assets.Gurobi,
+		name: 'Gurobi',
 		category: 'software'
 	}),
 
@@ -312,7 +319,7 @@ export const items = [
 	// FL studio
 	defineSkill({
 		slug: 'flstudio',
-		color: 'blue',
+		color: 'orange',
 		description: skillDescriptions.flstudio,
 		logo: Assets.FLStudio,
 		name: 'FL Studio',
