@@ -108,6 +108,23 @@ export const items: Array<Project> = [
 		skills: getSkills('vba', 'visio', 'office365'),
 		type: 'Automation'
 	},
+
+	// Bachelorarbeit. Vergleich von exakten optimierungsalgorithmen für das 2D-Binpacking Problem in Python
+	{
+		slug: 'bachelor-thesis',
+		color: 'green',
+		description:
+			'This project addresses the 2D Bin Packing problem, arranging various rectangular objects in same-size bins without rotation or cutting, to benchmark solvers.<br><br>Objectives: Evaluate Gurobi, CPLEX, and SCIP solvers; compare Primal Simplex, Dual Simplex, and Barrier methods.<br><br>Methods: Implement the problem, use solvers (Gurobi, CPLEX, SCIP) with three methods (Primal Simplex, Dual Simplex, Barrier), and develop performance profiles.<br><br>Tools: Python, Gurobi, CPLEX, SCIP.<br><br>Outcomes: Detailed performance comparison; insights into the most efficient solver and method; performance profiles.',
+		shortDescription:
+			'Comparison of Optimization Algorithms for the 2D Bin Packing Problem in Python.',
+		links: [],
+		logo: Assets.Learn,
+		name: 'Bachelor Thesis',
+		period: '2021',
+		status: 'Finished',
+		skills: getSkills('python'),
+		type: 'Research'
+	},
 	// Project Shiny Dashboard in R -> Shows Impact of Covid-19 on the Economy
 	{
 		slug: 'R',
