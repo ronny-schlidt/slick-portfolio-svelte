@@ -10,7 +10,7 @@ export const items: Array<Project> = [
 		description:
 			'The Restaurant App is a volunteer project designed to efficiently manage and operate the cafe at my hometown church. It offers functionalities to manage products, take orders, and oversee open orders. Orders can be updated to various statuses, and those ready for pickup are displayed on a separate screen, similar to the system used by popular fast food restaurants. Additionally, the app provides statistical insights and user management capabilities for your team.',
 		shortDescription:
-			'App, to take orders, manage orders, manage products, user management, etc...',
+			'App, to take orders, manage orders, manage products, user management, inventory management, etc...',
 		links: [{ to: 'https://github.com/Immanuel-Detmold/cafe', label: 'GitHub', newTab: true }],
 		logo: Assets.Cafe,
 		name: 'Restaurant App',
@@ -54,7 +54,8 @@ export const items: Array<Project> = [
 		color: '#491fd1',
 		description:
 			'The Telegram bot is my volunteer project designed to help musicians organize and create song sets automatically, and manage keys for musicians and singers.<br><br>Each Sunday (or other designated days), we assign specific songs and lead singers. The bot uses an API to fetch the songs for each day. When creating a set, it retrieves all the song keys from the past and transposes the songs into these keys. A set within a song app is created for every musician, eliminating the need to send songs to each person individually.<br><br>The bot also generates PDF files for singers/musicians and files for the media team to display the lyrics. Additionally, it creates folders for each song, downloads the song audio from YouTube, and transposes the audio into the key needed for the next event. The singers or instrumentalists can use these files to prepare for the upcoming event without needing to search for the material themselves (chords and correct audio).<br><br>Furthermore, the bot allows different keys to be saved and shows statistics, such as how often each singer performs and which songs we have sung frequently throughout the year.<br><br>I have set up a Linux server that continuously monitors changes in our church organization software and waits for requests in Telegram.',
-		shortDescription: 'Used to request data via Apis, manipulate data on servers.',
+		shortDescription:
+			'Used to request data via Apis, manipulate data on servers, generate files, and send them to users.',
 		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		links: [],
 		logo: Assets.Bot,
@@ -127,7 +128,7 @@ export const items: Array<Project> = [
 		name: 'Bachelor Thesis',
 		period: '2021',
 		status: 'Finished',
-		skills: getSkills('python', "gurobi"),
+		skills: getSkills('python', 'gurobi'),
 		type: 'Research'
 	},
 	// Project Shiny Dashboard in R -> Shows Impact of Covid-19 on the Economy
