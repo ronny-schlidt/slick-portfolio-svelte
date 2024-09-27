@@ -4,6 +4,7 @@
 	import '$lib/index.scss';
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
 
@@ -13,9 +14,25 @@
 <div class={`body contents ${$theme ? 'theme-dark' : 'theme-light'}`}>
 	<NavMenu />
 	<div class="content container"><slot /></div>
+
+		<footer class="p-2 footer-computer-only">
+		<a href={`${base}${'privacy-policy'}`} class="nav-menu-item text-gray-500">
+			<span class="nav-menu-item-label">{'Datenschutzerklärung'}</span>
+		</a>
+	</footer>
 </div>
 
 <style lang="scss">
+	.footer-computer-only {
+	  display: none;
+	}
+  
+	@media (min-width: 768px) {
+	  .footer-computer-only {
+		display: block;
+	  }
+	}
+
 	.content {
 		display: flex;
 		flex-direction: column;

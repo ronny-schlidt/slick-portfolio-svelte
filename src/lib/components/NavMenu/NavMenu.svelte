@@ -110,6 +110,12 @@
 					<span>Light Theme</span>
 				{/if}
 			</button>
+
+			<a href={`${base}${'privacy-policy'}`} class="text-[var(--accent-text)] px-6">
+				<span class="">{'Datenschutzerklärung'}</span>
+			</a>
+
+			
 		</div>
 	</div>
 </div>
