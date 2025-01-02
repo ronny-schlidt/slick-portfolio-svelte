@@ -70,7 +70,8 @@ export const items: Array<Project> = [
 			'html',
 			'docker',
 			'linux',
-			'figma'
+			'figma',
+			'ts'
 		),
 		type: 'Web App'
 	},
