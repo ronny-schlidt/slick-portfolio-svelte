@@ -90,8 +90,16 @@ export const items = [
 		category: 'pro-lang'
 	}),
 
-
 	// Libaries
+	defineSkill({
+		slug: 'nextjs',
+		color: 'black',
+		description: skillDescriptions.nextjs,
+		logo: Assets.NextJs,
+		name: 'Next.js',
+		category: 'library'
+	}),
+
 	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
@@ -108,7 +116,7 @@ export const items = [
 		name: 'Svelte',
 		category: 'library'
 	}),
-	
+
 	// Database
 	defineSkill({
 		slug: 'supabase',
@@ -258,6 +266,16 @@ export const items = [
 		name: 'Git',
 		category: 'devtools'
 	}),
+	// add docker
+	defineSkill({
+		slug: 'docker',
+		color: 'blue',
+		description: skillDescriptions.docker,
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devtools'
+	}),
+
 	defineSkill({
 		slug: 'tools',
 		color: 'red',
@@ -324,8 +342,7 @@ export const items = [
 		logo: Assets.FLStudio,
 		name: 'FL Studio',
 		category: 'free'
-	}),
-
+	})
 ] as const;
 
 export const title = 'Skills';

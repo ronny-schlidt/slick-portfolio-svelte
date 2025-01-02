@@ -50,6 +50,32 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'esports-tournament-saas',
+		color: '#0070f3',
+		description:
+			'The Esports Tournament SaaS Application is a project designed to manage and organize virtual esports tournaments efficiently. It offers features like tournament creation, player/team management, match result entry, and data visualization. Built with a focus on security, the application ensures safe handling of user and tournament data. Development is ongoing, with new features being added regularly to enhance the platform’s functionality.',
+		shortDescription:
+			'Manage tournaments, player and team data, submit match results, and analyze tournament statistics securely.',
+		links: [],
+		logo: Assets.ElevateEsports,
+		name: 'Esports Tournament SaaS',
+		period: 'Since 2024',
+		status: 'In Progress',
+		skills: getSkills(
+			'nextjs',
+			'supabase',
+			'typescript',
+			'tailwind',
+			'css',
+			'html',
+			'docker',
+			'linux',
+			'figma'
+		),
+		type: 'Web App'
+	},
+
+	{
 		slug: 'telegram-bot',
 		color: '#491fd1',
 		description:

@@ -71,7 +71,7 @@
 </script>
 
 <SearchPage {title} on:search={onSearch}>
-	<h5 class="ml-2 text-gray-400 mb-4">Projects are sorted by effort</h5>
+	<h5 class="ml-2 text-amber-400 mb-4">Projects are sorted by effort</h5>
 	<div class="projects-filters">
 		{#each filters as tech}
 			<Chip active={tech.isSelected} classes={'text-0.8em'} on:click={() => onSelected(tech.slug)}

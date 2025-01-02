@@ -95,6 +95,8 @@ const Assets = {
 	FLStudio: a('flstudio.png'),
 	DaisyUi: a('daisyUi.png'),
 	Gurobi: a('gurobi.png'),
+	NextJs: a('nextjs.svg'),
+	ElevateEsports: a('elevate-esport.png')
 };
 
 export default Assets;

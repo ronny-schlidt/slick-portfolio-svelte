@@ -38,14 +38,25 @@ export const skillDescriptions = {
 	r: 'A programming language and software environment used for statistical computing, data analysis, and graphical representation.',
 	powerautomate:
 		'A cloud-based service that enables users to automate workflows across multiple applications and services without the need for extensive coding.',
-	virtualagents: 'A tool for creating chatbots and virtual agents to automate customer interactions and support services.',
-	flstudio: "A comprehensive digital audio workstation (DAW) used for music production, allowing users to compose, arrange, record, edit, mix, and master music tracks with a wide range of built-in tools and plugins.",
-	piano: "I play the piano and have a good understanding of music theory and composition.",
-	acousticGuitar: "I play classical und strumming patterns on the acoustic guitar for music production.",
-	bassGuitar: "I play the bass guitar and have experience performing in various musical settings.",
-	drums: "I play drums and have experience with various drumming styles and rhythms.",
-	audioMixing: "I have experience in audio mixing, including balancing levels, panning, equalization, and effects processing (Production & Live).",
-	audioProduction: "I have experience in audio production, including recording, editing, and arranging audio tracks.",
-	daisyUi: "A modern, responsive, and customizable UI framework for building web applications with a focus on accessibility and user experience.",
-	gurobi: "A mathematical optimization solver used for solving linear programming, mixed-integer programming, and other optimization problems.",
+	virtualagents:
+		'A tool for creating chatbots and virtual agents to automate customer interactions and support services.',
+	flstudio:
+		'A comprehensive digital audio workstation (DAW) used for music production, allowing users to compose, arrange, record, edit, mix, and master music tracks with a wide range of built-in tools and plugins.',
+	piano: 'I play the piano and have a good understanding of music theory and composition.',
+	acousticGuitar:
+		'I play classical und strumming patterns on the acoustic guitar for music production.',
+	bassGuitar: 'I play the bass guitar and have experience performing in various musical settings.',
+	drums: 'I play drums and have experience with various drumming styles and rhythms.',
+	audioMixing:
+		'I have experience in audio mixing, including balancing levels, panning, equalization, and effects processing (Production & Live).',
+	audioProduction:
+		'I have experience in audio production, including recording, editing, and arranging audio tracks.',
+	daisyUi:
+		'A modern, responsive, and customizable UI framework for building web applications with a focus on accessibility and user experience.',
+	gurobi:
+		'A mathematical optimization solver used for solving linear programming, mixed-integer programming, and other optimization problems.',
+	nextjs:
+		'A React-based framework for building server-side rendered and statically generated web applications, offering features like automatic code splitting, optimized performance, and easy API routes.',
+	docker:
+		'A platform for developing, shipping, and running applications in containers, providing a consistent environment across different systems.'
 };
