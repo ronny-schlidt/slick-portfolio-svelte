@@ -1,6 +1,8 @@
 export const skillDescriptions = {
 	typescript:
 		'A typed superset of JavaScript that compiles to plain JavaScript, offering static type-checking and advanced tooling.',
+	javascript:
+		'A versatile, high-level programming language that is a core technology of the web, enabling interactive and dynamic content in web pages and applications.',
 	python:
 		'A versatile high-level programming language known for its readability, extensive libraries, and wide usage in various fields like web development, data science, and automation.',
 	cpp: 'A powerful, high-performance language with object-oriented and low-level memory manipulation capabilities, commonly used in system/software development, game development, and performance-critical applications.',
@@ -17,7 +19,7 @@ export const skillDescriptions = {
 	shadcn:
 		'A lightweight framework for building reactive user interfaces in web applications, focusing on simplicity and performance.',
 	supabase:
-		'An open-source Firebase alternative providing a backend as a service with real-time capabilities, database management, and authentication.',
+		'An open-source Firebase alternative providing a backend as a service with real-time capabilities, database management, and authentication, using Postgres as its database.',
 	figma:
 		'A cloud-based design tool for interface design and prototyping, enabling collaboration and real-time feedback among team members.',
 	photoshop:

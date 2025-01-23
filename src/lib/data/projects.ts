@@ -7,8 +7,12 @@ export const items: Array<Project> = [
 	{
 		slug: 'restaurant-app',
 		color: '#ff3e00',
-		description:
-			'The Restaurant App is a volunteer project designed to efficiently manage and operate the cafe at my hometown church. It offers functionalities to manage products, take orders, and oversee open orders. Orders can be updated to various statuses, and those ready for pickup are displayed on a separate screen, similar to the system used by popular fast food restaurants. Additionally, the app provides statistical insights and user management capabilities for your team.',
+		description: `The Restaurant App is a volunteer project designed to efficiently manage and operate the cafe at my hometown church. It offers functionalities to manage products, take orders, and oversee open orders.<br><br>
+    **Key Features include:**<br><br>
+    - **Order Management:** Orders can be updated to various statuses, and those ready for pickup are displayed on a separate screen, similar to the system used by popular fast food restaurants.<br><br>
+    - **Product Management:** Manage products efficiently.<br><br>
+    - **Statistical Insights:** Provides statistical insights.<br><br>
+    - **User Management:** User management capabilities for your team.`,
 		shortDescription:
 			'App, to take orders, manage orders, manage products, user management, inventory management, etc...',
 		links: [{ to: 'https://github.com/Immanuel-Detmold/cafe', label: 'GitHub', newTab: true }],
@@ -16,7 +20,7 @@ export const items: Array<Project> = [
 		name: 'Restaurant App',
 		period: 'Since 2023',
 		status: 'In Progress',
-		skills: getSkills('reactjs', 'ts', 'tailwind', 'figma', 'css', 'html', 'supabase'),
+		skills: getSkills('reactjs', 'ts', 'tailwind', 'figma', 'css', 'html', 'supabase', 'shadcn'),
 		type: 'Web App',
 		screenshots: [
 			{
@@ -52,8 +56,13 @@ export const items: Array<Project> = [
 	{
 		slug: 'esports-tournament-saas',
 		color: '#0070f3',
-		description:
-			'The Esports Tournament SaaS Application is a project designed to manage and organize virtual esports tournaments efficiently. It offers features like tournament creation, player/team management, match result entry, and data visualization. Built with a focus on security, the application ensures safe handling of user and tournament data. Development is ongoing, with new features being added regularly to enhance the platform’s functionality.',
+		description: `The Esports Tournament SaaS Application is a project designed to manage and organize virtual esports tournaments efficiently. It offers features like tournament creation, player/team management, match result entry, and data visualization.<br><br>
+    **Key Features include:**<br><br>
+    - **Tournament Creation:** Easily create and manage tournaments.<br><br>
+    - **Player/Team Management:** Manage players and teams efficiently.<br><br>
+    - **Match Result Entry:** Enter and update match results.<br><br>
+    - **Data Visualization:** Visualize tournament data effectively.<br><br>
+    Built with a focus on security, the application ensures safe handling of user and tournament data. Development is ongoing, with new features being added regularly to enhance the platform’s functionality.`,
 		shortDescription:
 			'Manage tournaments, player and team data, submit match results, and analyze tournament statistics securely.',
 		links: [],
@@ -79,8 +88,15 @@ export const items: Array<Project> = [
 	{
 		slug: 'telegram-bot',
 		color: '#491fd1',
-		description:
-			'The Telegram bot is my volunteer project designed to help musicians organize and create song sets automatically, and manage keys for musicians and singers.<br><br>Each Sunday (or other designated days), we assign specific songs and lead singers. The bot uses an API to fetch the songs for each day. When creating a set, it retrieves all the song keys from the past and transposes the songs into these keys. A set within a song app is created for every musician, eliminating the need to send songs to each person individually.<br><br>The bot also generates PDF files for singers/musicians and files for the media team to display the lyrics. Additionally, it creates folders for each song, downloads the song audio from YouTube, and transposes the audio into the key needed for the next event. The singers or instrumentalists can use these files to prepare for the upcoming event without needing to search for the material themselves (chords and correct audio).<br><br>Furthermore, the bot allows different keys to be saved and shows statistics, such as how often each singer performs and which songs we have sung frequently throughout the year.<br><br>I have set up a Linux server that continuously monitors changes in our church organization software and waits for requests in Telegram.',
+		description: `The Telegram bot is my volunteer project designed to help musicians organize and create song sets automatically, and manage keys for musicians and singers.<br><br>
+    **Key Features include:**<br><br>
+    - **Song Set Creation:** Automatically create song sets for each event.<br><br>
+    - **Key Management:** Manage keys for musicians and singers.<br><br>
+    - **API Integration:** Fetch songs for each day using an API.<br><br>
+    - **PDF Generation:** Generate PDF files for singers/musicians and files for the media team to display lyrics.<br><br>
+    - **Audio Processing:** Download song audio from YouTube and transpose it into the needed key.<br><br>
+    - **Statistics:** Show statistics such as how often each singer performs and frequently sung songs.<br><br>
+    I have set up a Linux server that continuously monitors changes in our church organization software and waits for requests in Telegram.`,
 		shortDescription:
 			'Used to request data via Apis, manipulate data on servers, generate files, and send them to users.',
 		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
@@ -111,10 +127,36 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'browser-automation',
+		color: '#28a745', // Green for productivity
+		// Green for productivity
+		description: `A collection of Tampermonkey scripts that automate various tasks within web browsers. These scripts leverage JavaScript and browser APIs to interact with web pages, extract data, modify content, and automate actions.<br><br>
+		**Examples of implemented functionalities include:**<br><br>
+		- **Data Extraction:** Extracting specific information from web pages, such as product prices, contact details, or article summaries.<br><br>
+		- **Content Modification:** Modifying web page elements, such as removing ads, changing styles, or translating text.<br><br>
+		- **Workflow Automation:** Automating repetitive tasks, such as filling out forms, clicking buttons, and navigating between pages.<br><br>
+		- **Data Entry Simplification:** Simplifying data entry processes by automatically filling in fields or copying relevant information to the clipboard.`,
+		shortDescription:
+			'Automate web tasks with custom scripts for increased efficiency and productivity.',
+		links: [
+			{ to: 'https://github.com/Immanuel-Detmold/tampermonkey', label: 'GitHub', newTab: true }
+		],
+		logo: Assets.Tampermonkey, // Consider adding a small icon or logo for the project
+		name: 'Browser Automation Scripts',
+		period: '2025',
+		status: 'Completed',
+		skills: getSkills('js', 'css', 'html'),
+		type: 'Browser Extension (Tampermonkey)'
+	},
+	{
 		slug: 'PowerApps',
 		color: 'purple',
-		description:
-			'I developed two PowerApps to enhance workflow efficiency within the company. The first app allows employees to submit issues related to software or other concerns. The digitalization team can manage these issues, update their statuses, and respond directly to the reported problems. Additionally, the app features an analysis screen to identify the most common issues, helping prioritize what needs to be addressed first.<br><br>The second PowerApp was designed for the onboarding process of new employees. The CEO could select various topics, which would then generate a personalized onboarding plan for the new hire.',
+		description: `I developed two PowerApps to enhance workflow efficiency within the company.<br><br>
+    **Key Features include:**<br><br>
+    - **Issue Submission:** Employees can submit issues related to software or other concerns.<br><br>
+    - **Issue Management:** The digitalization team can manage these issues, update their statuses, and respond directly to the reported problems.<br><br>
+    - **Analysis Screen:** Identify the most common issues to help prioritize what needs to be addressed first.<br><br>
+    - **Onboarding Process:** The second PowerApp was designed for the onboarding process of new employees. The CEO could select various topics, which would then generate a personalized onboarding plan for the new hire.`,
 		shortDescription: 'Internal Apps for Streamlined Workflows.',
 		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		links: [],
@@ -129,8 +171,10 @@ export const items: Array<Project> = [
 	{
 		slug: 'VBA-automation',
 		color: 'green',
-		description:
-			'Excel & Word:<br>The VBA script, triggered by a button in a Word file, read data from an Excel file, transformed it, and wrote the data into the Word template. Additionally, it created bar charts and inserted them into the Word file. This script was used for quality checks for customers.<br><br>Visio & Excel:<br>The script read data from an Excel file and placed multiple shapes with data and connections to other shapes. This data landscape illustrated the interactions between different software systems and the data flow between them. It also identified the responsible persons or groups for maintaining specific data. Due to the large number of data fields, I used this script to eliminate repetitive work.',
+		description: `**Excel & Word**:<br>
+    The VBA script, triggered by a button in a Word file, read data from an Excel file, transformed it, and wrote the data into the Word template. Additionally, it created bar charts and inserted them into the Word file. This script was used for quality checks for customers.<br><br>
+    **Visio & Excel**:<br>
+    The script read data from an Excel file and placed multiple shapes with data and connections to other shapes. This data landscape illustrated the interactions between different software systems and the data flow between them. It also identified the responsible persons or groups for maintaining specific data. Due to the large number of data fields, I used this script to eliminate repetitive work.`,
 		shortDescription: 'Automate tasks in Excel, Word and Visio with VBA.',
 		// links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		links: [],
