@@ -12,7 +12,14 @@ export const items: Array<Experience> = [
 		type: 'proc-digi',
 		location: 'Detmold',
 		period: 'August 2022 - February 2024',
-		skills: getSkills('powerapps', 'vba', 'office365', 'sharepoint', 'powerautomate', "virtualagents"),
+		skills: getSkills(
+			'powerapps',
+			'vba',
+			'office365',
+			'sharepoint',
+			'powerautomate',
+			'virtualagents'
+		),
 		name: 'Procurement Excellence Digitalization',
 		color: 'red',
 		links: [],
@@ -22,8 +29,13 @@ export const items: Array<Experience> = [
 	{
 		slug: 'mixing-freelance',
 		company: 'Immanuel Detmold Church',
-		description:
-			'As a dedicated volunteer at <a href="https://www.immanuel-detmold.de/">Immanuel Detmold Church</a>, I have taken on the responsibility of leading a team of audio engineers to ensure the seamless execution of events.<br> My role involves organizing and coordinating personnel on event days, building the necessary infrastructure, and maintaining the audio system to ensure optimal performance.<br><br> In addition to these tasks, I conduct training sessions for new volunteers, equipping them with the skills and knowledge required to support our audio operations.<br> My efforts contribute to creating a cohesive and efficient team capable of delivering high-quality audio experiences for all attendees.',
+		description: `As a dedicated volunteer at <a href="https://www.immanuel-detmold.de/">Immanuel Detmold Church</a>, I have taken on the responsibility of leading a team of audio engineers to ensure the seamless execution of events.<br><br>
+    **Key Responsibilities:**<br><br>
+    - Organizing and coordinating personnel on event days.<br><br>
+    - Building the necessary infrastructure.<br><br>
+    - Maintaining the audio system to ensure optimal performance.<br><br>
+    - Conducting training sessions for new volunteers, equipping them with the skills and knowledge required to support our audio operations.<br><br>
+    My efforts contribute to creating a cohesive and efficient team capable of delivering high-quality audio experiences for all attendees.`,
 		contract: ContractType.PartTime,
 		type: '',
 		location: 'Detmold',
