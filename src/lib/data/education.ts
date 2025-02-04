@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.Learn,
 		name: '',
 		organization: 'Tongji University',
-		period: 'Since 2022',
+		period: '2024',
 		shortDescription: '',
 		slug: 'foreign-semester',
 		subjects: ['Economics', 'Management', 'Leadership', 'Chinese']
