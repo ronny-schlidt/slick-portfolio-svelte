@@ -12,8 +12,8 @@ export const items: Array<Project> = [
     - **Order Management:** Orders can be updated to various statuses, and those ready for pickup are displayed on a separate screen, similar to the system used by popular fast food restaurants.<br><br>
     - **Product Management:** Manage products efficiently.<br><br>
     - **Statistical Insights:** Provides statistical insights.<br><br>
-    - **User Management:** User management capabilities for your team.
-		- **Receipt Printing:** Print receipts for both staff and customers.
+    - **User Management:** User management capabilities for your team.<br><br>
+		- **Receipt Printing:** Print receipts for both staff and customers.<br><br>
 		- **Text-to-Speech Notification:** If an order is not picked up, the audio system announces, "Order number x is ready to be picked up."`,
 		shortDescription:
 			'App, to take orders, manage orders, manage products, user management, inventory management, etc...',
