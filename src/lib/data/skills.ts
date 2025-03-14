@@ -221,6 +221,15 @@ export const items = [
 		name: 'Power Automate',
 		category: 'software'
 	}),
+	// add wordpress
+	defineSkill({
+		slug: 'wordpress',
+		color: 'blue',
+		description: skillDescriptions.wordpress,
+		logo: Assets.Wordpress,
+		name: 'Wordpress',
+		category: 'software'
+	}),
 
 	defineSkill({
 		slug: 'linux',

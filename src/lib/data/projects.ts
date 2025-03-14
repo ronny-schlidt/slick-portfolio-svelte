@@ -129,6 +129,48 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'jugarden-wordpress',
+		color: '#21759b', // WordPress blue
+		description: `Designed and developed a WordPress website for JuGarden.de, a garden work and landscaping business.<br><br>
+		**Key Features include:**<br><br>
+		- **Responsive Design:** Created a fully responsive website that looks great on all devices.<br><br>
+		- **Portfolio Gallery:** Implemented an image gallery showcasing completed landscaping and garden projects.<br><br>
+		- **Contact Forms:** Set up easy-to-use contact forms for potential clients to request quotes.<br><br>
+		- **SEO Optimization:** Implemented best practices for search engine optimization to improve visibility.<br><br>`,
+		shortDescription:
+			'WordPress website for a garden landscaping business with portfolio and contact features.',
+		links: [{ to: 'https://jugarden.de', label: 'Website', newTab: true }],
+		logo: Assets.Wordpress,
+		name: 'JuGarden.de Website',
+		period: '2022',
+		status: 'Completed',
+		skills: getSkills('wordpress', 'html', 'css', 'php'),
+		type: 'Website',
+		screenshots: [
+			{
+				label: 'Home Page',
+				src: ScreenshotsAssets.jugardenHomePC
+			},
+			{
+				label: 'Mobile',
+				src: ScreenshotsAssets.jugardenHomeMobile
+			},
+			{
+				label: '',
+				src: ScreenshotsAssets.jugardenPreview
+			},
+			{
+				label: 'Testimonials',
+				src: ScreenshotsAssets.jugardenTestimonials
+			},
+			{
+				label: 'Contact Form',
+				src: ScreenshotsAssets.jugardenContact
+			}
+		]
+	},
+
+	{
 		slug: 'browser-automation',
 		color: '#28a745', // Green for productivity
 		// Green for productivity

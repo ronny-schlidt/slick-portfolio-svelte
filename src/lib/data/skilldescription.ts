@@ -60,5 +60,6 @@ export const skillDescriptions = {
 	nextjs:
 		'A React-based framework for building server-side rendered and statically generated web applications, offering features like automatic code splitting, optimized performance, and easy API routes.',
 	docker:
-		'A platform for developing, shipping, and running applications in containers, providing a consistent environment across different systems.'
+		'A platform for developing, shipping, and running applications in containers, providing a consistent environment across different systems.',
+		wordpress: 'A popular content management system (CMS) for building websites and blogs, offering a wide range of themes, plugins, and customization options.',
 };

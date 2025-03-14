@@ -97,7 +97,8 @@ const Assets = {
 	Gurobi: a('gurobi.png'),
 	NextJs: a('nextjs.svg'),
 	ElevateEsports: a('elevate-esport.png'),
-	Tampermonkey: a('tampermonkey.png')
+	Tampermonkey: a('tampermonkey.png'),
+	Wordpress: a('wordpress.png')
 };
 
 export default Assets;
