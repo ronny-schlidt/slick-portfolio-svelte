@@ -38,7 +38,7 @@ export const items: Array<Education> = [
 		logo: Assets.Learn,
 		name: '',
 		organization: 'University of Paderborn',
-		period: '2017-2021',
+		period: '2017 - 2021',
 		shortDescription: '',
 		slug: 'bachelor',
 		subjects: [
@@ -61,7 +61,7 @@ export const items: Array<Education> = [
 		logo: Assets.Learn,
 		name: '',
 		organization: '',
-		period: '2009-2017',
+		period: '2009 - 2017',
 		shortDescription: '',
 		slug: 'highschool',
 		subjects: []
