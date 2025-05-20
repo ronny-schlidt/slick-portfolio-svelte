@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.Learn,
 		name: '',
 		organization: 'Tongji University',
-		period: '2024',
+		period: 'Summer 2024',
 		shortDescription: '',
 		slug: 'foreign-semester',
 		subjects: ['Economics', 'Management', 'Leadership', 'Chinese']
@@ -21,7 +21,7 @@ export const items: Array<Education> = [
 		logo: Assets.Learn,
 		name: '',
 		organization: 'University of Paderborn',
-		period: 'Since 2022',
+		period: '2022 - 2025',
 		shortDescription: '',
 		slug: 'master',
 		subjects: [

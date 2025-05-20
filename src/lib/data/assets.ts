@@ -98,7 +98,8 @@ const Assets = {
 	NextJs: a('nextjs.svg'),
 	ElevateEsports: a('elevate-esport.png'),
 	Tampermonkey: a('tampermonkey.png'),
-	Wordpress: a('wordpress.png')
+	Wordpress: a('wordpress.png'),
+	bowbridge: a('bowbridge.png'),
 };
 
 export default Assets;

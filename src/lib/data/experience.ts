@@ -4,10 +4,26 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
+		slug: 'bowridge-software-engineer',
+		company: 'bowridge Software GmbH',
+		description:
+			'Software Engineer with a focus on cybersecurity, network security, and test development.',
+		contract: ContractType.FullTime,
+		type: 'Software Engineering',
+		location: 'Munich',
+		period: 'Since May 2025',
+		skills: getSkills('cybersecurity', 'network-security', 'testing', 'development'),
+		name: 'Software Engineer',
+		color: 'purple',
+		links: [],
+		logo: Assets.bowbridge,
+		shortDescription: 'Software Engineer specializing in cybersecurity, network security, and testing.'
+	},
+	{
 		slug: 'proc-digitalization',
 		company: 'Weidmüller',
 		description:
-			'Digitalize procurement processes. Create Power-Apps for internal use. VBA scripts -> use Excel Data to generate PDF files.',
+			'Digitalized procurement processes. Created Power-Apps for internal use. Used VBA scripts to generate PDF files from Excel data.',
 		contract: ContractType.PartTime,
 		type: 'proc-digi',
 		location: 'Detmold',
@@ -39,7 +55,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.PartTime,
 		type: '',
 		location: 'Detmold',
-		period: 'Since 2021',
+		period: 'January 2021 - May 2025',
 		skills: getSkills('mixing', 'producing'),
 		name: 'Leading Audio Mixing Team',
 		color: 'green',
