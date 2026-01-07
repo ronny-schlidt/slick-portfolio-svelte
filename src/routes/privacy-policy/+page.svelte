@@ -203,25 +203,23 @@
 </ul>
 <p><strong>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</strong></p>
 <ul class="m-elements">
-	<li>
-        <strong>Vercel Analytics:</strong> Wir verwenden Vercel Analytics zur Messung und Analyse der Nutzung
+      <li>
+        <strong>Swetrix:</strong> Wir verwenden Swetrix zur Messung und Analyse der Nutzung
         unseres Onlineangebotes auf der Grundlage pseudonymer Daten. Diese Informationen enthalten keine
         eindeutigen personenbezogenen Daten, wie Namen oder E-Mail-Adressen. Die Analyse umfasst die Erfassung
-        von Daten wie der Anzahl der Seitenaufrufe, der Nutzung des Onlineangebotes, der geografischen
-        Herkunft der Nutzer (auf Basis von groben Standortdaten) sowie technischen Informationen zu den
+        von Daten wie der Anzahl der Seitenaufrufe, der Nutzung des Onlineangebotes sowie technischen Informationen zu den
         Endgeräten und Browsern der Nutzer. Es werden keine vollständigen IP-Adressen gespeichert, sondern
         lediglich anonymisierte Informationen verarbeitet, um die Nutzung unserer Website zu verstehen.
-        <strong>Dienstanbieter:</strong> Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA;
+        <strong>Dienstanbieter:</strong> Swetrix (selbstgehostet in Deutschland);
         <span class="">
           <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO);
         </span>
         <strong>Website:</strong>
-        <a href="https://vercel.com" target="_blank">https://vercel.com</a>;
+        <a href="https://swetrix.org" target="_blank">https://swetrix.org</a>;
         <strong>Datenschutzerklärung:</strong>
-        <a href="https://vercel.com/legal/privacy-policy" target="_blank"
-          >https://vercel.com/legal/privacy-policy</a
+        <a href="https://swetrix.org/privacy" target="_blank"
+          >https://swetrix.org/privacy</a
         >.
-        <strong>Auftragsverarbeitungsvertrag:</strong> Wird vom Dienstanbieter bereitgestellt.
       </li>
       
 </ul>

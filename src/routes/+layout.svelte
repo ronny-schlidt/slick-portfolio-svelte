@@ -5,11 +5,28 @@
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
-	// export const prerender = true;
 
 	onMount(() => onHydrated());
 </script>
+
+<svelte:head>
+	<script src="https://swetrix.org/swetrix.js" defer></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			swetrix.init('Vkr2NNPVr4M7', {
+				apiURL: 'https://swetrixapi-doo40ocwc0scog8g8sko4k8o.escabix.online/log',
+			})
+			swetrix.trackViews()
+		})
+	</script>
+	<noscript>
+		<img
+			src="https://swetrixapi-doo40ocwc0scog8g8sko4k8o.escabix.online/log/noscript?pid=Vkr2NNPVr4M7"
+			alt=""
+			referrerpolicy="no-referrer-when-downgrade"
+		/>
+	</noscript>
+</svelte:head>
 
 <div class={`body contents ${$theme ? 'theme-dark' : 'theme-light'}`}>
 	<NavMenu />
