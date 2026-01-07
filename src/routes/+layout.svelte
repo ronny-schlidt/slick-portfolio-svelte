@@ -14,7 +14,7 @@
 
 	onMount(() => {
     Swetrix.init('Vkr2NNPVr4M7', {
-      apiURL: 'https://swetrixapi-doo40ocwc0scog8g8sko4k8o.escabix.online/log',
+      apiURL: 'https://swetrixapi.escabix.online/log',
     })
     Swetrix.trackViews()
   })
