@@ -80,6 +80,14 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'apex',
+		color: 'blue',
+		description: skillDescriptions.apex,
+		logo: Assets.SalesforceApex,
+		name: 'Salesforce Apex',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'vba',
 		color: 'yellow',
 		description: skillDescriptions.vba,

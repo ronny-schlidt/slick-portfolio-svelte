@@ -95,6 +95,7 @@ const Assets = {
 	FLStudio: a('flstudio.png'),
 	DaisyUi: a('daisyUi.png'),
 	Gurobi: a('gurobi.png'),
+	SalesforceApex: a('salesforce-apex.jpg'),
 	NextJs: a('nextjs.svg'),
 	ElevateEsports: a('elevate-esport.png'),
 	Tampermonkey: a('tampermonkey.png'),
