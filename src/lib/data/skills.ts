@@ -9,9 +9,9 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
 	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
-	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
+	defineSkillCategory({ name: 'UI Libraries', slug: 'library' }),
 	defineSkillCategory({ name: 'Software & Platforms', slug: 'software' }),
-	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
+	defineSkillCategory({ name: 'Languages', slug: 'lang' }),
 	defineSkillCategory({ name: 'Databases', slug: 'db' }),
 	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
 	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
@@ -44,15 +44,16 @@ export const items = [
 		color: 'blue',
 		description: skillDescriptions.typescript,
 		logo: Assets.TypeScript,
-		name: 'Typescript',
+		name: 'TypeScript',
 		category: 'pro-lang'
 	}),
-	defineSkill({
-		slug: 'js',
-		color: 'yellow',
-		description: skillDescriptions.javascript,
-		logo: Assets.JavaScript,
-		name: 'JavaScript',
+
+		defineSkill({
+		slug: 'apex',
+		color: 'blue',
+		description: skillDescriptions.apex,
+		logo: Assets.SalesforceApex,
+		name: 'Salesforce Apex',
 		category: 'pro-lang'
 	}),
 	defineSkill({
@@ -80,14 +81,6 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'apex',
-		color: 'blue',
-		description: skillDescriptions.apex,
-		logo: Assets.SalesforceApex,
-		name: 'Salesforce Apex',
-		category: 'pro-lang'
-	}),
-	defineSkill({
 		slug: 'vba',
 		color: 'yellow',
 		description: skillDescriptions.vba,
@@ -105,15 +98,23 @@ export const items = [
 		name: 'R',
 		category: 'pro-lang'
 	}),
+		defineSkill({
+		slug: 'js',
+		color: 'yellow',
+		description: skillDescriptions.javascript,
+		logo: Assets.JavaScript,
+		name: 'JavaScript',
+		category: 'pro-lang'
+	}),
 
-	// Libaries
+	// Libraries
 	defineSkill({
 		slug: 'nextjs',
 		color: 'black',
 		description: skillDescriptions.nextjs,
 		logo: Assets.NextJs,
 		name: 'Next.js',
-		category: 'library'
+		category: 'framework'
 	}),
 
 	defineSkill({
@@ -121,8 +122,8 @@ export const items = [
 		color: 'cyan',
 		description: skillDescriptions.reactjs,
 		logo: Assets.ReactJs,
-		name: 'React Js',
-		category: 'library'
+		name: 'React',
+		category: 'framework'
 	}),
 	defineSkill({
 		slug: 'svelte',
@@ -130,7 +131,15 @@ export const items = [
 		description: svelte,
 		logo: Assets.Svelte,
 		name: 'Svelte',
-		category: 'library'
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'lwc',
+		color: 'blue',
+		description: skillDescriptions.lwc,
+		logo: Assets.LWC,
+		name: 'Lightning Web Components',
+		category: 'framework'
 	}),
 
 	// Database
@@ -173,7 +182,7 @@ export const items = [
 		description: skillDescriptions.shadcn,
 		logo: Assets.Shadcn,
 		name: 'Shadcn',
-		category: 'markup-style'
+		category: 'library'
 	}),
 	// DaisyUi
 	defineSkill({
@@ -182,7 +191,7 @@ export const items = [
 		description: skillDescriptions.daisyUi,
 		logo: Assets.DaisyUi,
 		name: 'DaisyUI',
-		category: 'markup-style'
+		category: 'library'
 	}),
 	// Design
 	defineSkill({
@@ -235,7 +244,7 @@ export const items = [
 		color: 'blue',
 		description: skillDescriptions.wordpress,
 		logo: Assets.Wordpress,
-		name: 'Wordpress',
+		name: 'WordPress',
 		category: 'software'
 	}),
 

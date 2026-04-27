@@ -61,6 +61,8 @@ export const skillDescriptions = {
 		'A React-based framework for building server-side rendered and statically generated web applications, offering features like automatic code splitting, optimized performance, and easy API routes.',
 	docker:
 		'A platform for developing, shipping, and running applications in containers, providing a consistent environment across different systems.',
+	lwc:
+		"A component-based UI framework on the Salesforce platform used to build fast, reusable, and standards-based web components.",
 	apex:
 		'A strongly typed, object-oriented programming language for Salesforce, used to build custom business logic, triggers, and integrations on the Salesforce platform.',
 		wordpress: 'A popular content management system (CMS) for building websites and blogs, offering a wide range of themes, plugins, and customization options.',
