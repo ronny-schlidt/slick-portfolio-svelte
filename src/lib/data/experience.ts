@@ -6,18 +6,24 @@ export const items: Array<Experience> = [
 	{
 		slug: 'bowridge-software-engineer',
 		company: 'bowridge Software GmbH',
-		description:
-			'Software Engineer with a focus on cybersecurity, network security, and test development.',
+		description: `At Bowbridge, I develop and maintain a Salesforce managed package (2GP) that scans files for viruses and checks URLs for threats directly within Salesforce.<br><br>
+    **Key Responsibilities:**<br><br>
+    - Building Apex triggers and services for scan orchestration.<br><br>
+    - Implementing Lightning Web Components and Visualforce pages for the user-facing experience.<br><br>
+    - Implementing test CI/CD pipelines for quality and delivery automation.<br><br>
+    - Setting up Linux servers for deployment and operations.<br><br>
+    - Preparing and passing the AppExchange Security Review.`,
 		contract: ContractType.FullTime,
 		type: 'Software Engineering',
 		location: 'Munich',
 		period: 'Since May 2025',
-		skills: getSkills('cybersecurity', 'network-security', 'testing', 'development'),
+		skills: getSkills('apex', 'lwc', 'js', 'ts', 'html', 'linux', 'docker', 'git', 'tools'),
 		name: 'Software Engineer',
 		color: 'purple',
 		links: [],
 		logo: Assets.bowbridge,
-		shortDescription: 'Software Engineer specializing in cybersecurity, network security, and testing.'
+		shortDescription:
+			'Salesforce engineer building and maintaining a 2GP AppExchange package with Apex, LWC, Visualforce, CI/CD pipelines, and Linux server setup.'
 	},
 	{
 		slug: 'proc-digitalization',
